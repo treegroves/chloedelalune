@@ -99,6 +99,7 @@ html{
       padding: 6vw;
   }
 
+  
   .modal-body {
       position: relative
   }
@@ -158,3 +159,12 @@ html{
 img {
     pointer-events: none;
 }
+
+
+@media screen and (max-width: 575px) 
+{
+    .about-txt {
+        width: 45vw;
+        padding: 0vw;
+    }
+}    
